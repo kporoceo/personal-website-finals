@@ -27,11 +27,4 @@
   </script>
   
   <style scoped>
-  /* Add component-specific styles here */
-  .navbar {
-    padding: 1rem 0;
-  }
-  .nav-link {
-    font-size: 1.1rem;
-  }
   </style>

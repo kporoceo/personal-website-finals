@@ -1,4 +1,5 @@
 <template>
+<div id ="about" class="container mb-4">
     <div class="container mb-4">
       <div class="row">
         <div class="col bg-gradient bg-info p-4 rounded-3 text-dark shadow-lg">
@@ -15,7 +16,8 @@
         </div>
       </div>
     </div>
-  </template>
+</div>
+</template>
   
   <script>
   export default {
@@ -24,5 +26,15 @@
   </script>
   
   <style scoped>
-  /* Add component-specific styles here */
+.bg-gradient {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-3 {
+  border-radius: 1rem;
+}
   </style>

@@ -1,4 +1,5 @@
 <template>
+<div id="gallery" class="container mb-5">
     <div class="container mb-5">
       <div class="p-4 bg-dark-subtle text-dark rounded-3 shadow">
         <h3 class="fw-bold text-info"><i class="fas fa-images"></i> Picture Gallery</h3>
@@ -8,7 +9,9 @@
         </div>
       </div>
     </div>
-  </template>
+
+</div>
+</template>
   
   <script>
   export default {
@@ -40,4 +43,16 @@
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+
+  .bg-gradient {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-3 {
+  border-radius: 1rem;
+}
   </style>
