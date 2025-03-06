@@ -38,7 +38,7 @@
     display: inline-flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #6a11cb;
+    background-color: #95a688;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -46,7 +46,7 @@
   }
   
   .social-link:hover {
-    background-color: #2575fc;
+    background-color: #a8b999;
   }
   
   .social-link i {

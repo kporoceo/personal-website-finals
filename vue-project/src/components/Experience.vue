@@ -112,7 +112,7 @@ export default {
 }
 
 .skill {
-  background-color: #6a11cb;
+  background-color: #95a688(269 7% 20%);
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
@@ -121,6 +121,6 @@ export default {
 }
 
 .skill:hover {
-  background-color: #2575fc;
+  background-color: #a8b999;
 }
 </style>
