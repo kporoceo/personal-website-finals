@@ -9,8 +9,7 @@
     <Hobbies />
     <Goals />
     <Gallery />
-    <Guestbook />
-    <Contact />
+   
   </div>
 </template>
 
@@ -24,8 +23,7 @@ import Experience from './components/Experience.vue';
 import Hobbies from './components/Hobbies.vue';
 import Goals from './components/Goals.vue';
 import Gallery from './components/Gallery.vue';
-import Guestbook from './components/Guestbook.vue';
-import Contact from './components/Contact.vue';
+
 
 export default {
   components: {
@@ -38,8 +36,7 @@ export default {
     Hobbies,
     Goals,
     Gallery,
-    Guestbook,
-    Contact
+
   }
 }
 </script>
