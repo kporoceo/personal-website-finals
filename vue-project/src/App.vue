@@ -48,16 +48,16 @@ export default {
 
 <style>
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 section {
-  padding: 80px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 60px 0; /* Reduced to 60px from 80px */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 h1, h2, h3 {

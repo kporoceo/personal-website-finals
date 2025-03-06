@@ -1,6 +1,5 @@
 <template>
-  <div class="container text-center py-5 header-padding">
-      <h1 class="fw-bold display-4">Kathryn Oroceo</h1>
+  <div class="container text-center py-3 header-padding"> <h1 class="fw-bold display-4">Kathryn Oroceo</h1>
       <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/pfp.jpg?raw=true"
            width="150" height="150" alt="Profile Picture"
            class="rounded-circle border border-light border-3 shadow-lg">
@@ -20,6 +19,6 @@ h1 {
 }
 
 .header-padding {
-  padding-top: 80px; /* Adjust this value as needed */
+  padding-top: 60px; /* Reduced to 60px from 80px */
 }
 </style>
