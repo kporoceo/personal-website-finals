@@ -76,24 +76,24 @@ export default {
           }
       },
       async submitEntry() {
-          const { data, error } = await supabase
-              .from('guestbook')
-              .insert([{ name: this.name, message: this.message }]);
-          if (data) {
-              this.entries.unshift(data[0]);
-              this.name = '';
-              this.message = '';
-              this.showConfirmation = true;
-              setTimeout(() => {
-                  this.showConfirmation = false;
-              }, 3000);
-          } else if (error) {
-              console.error('Error submitting entry:', error);
-              this.showError = true;
-              setTimeout(() => {
-                  this.showError = false;
-              }, 3000);
-          }
+    const { data, error } = await supabase
+        .from('guestbook')
+        .insert([{ name: this.name, message: this.message }]);
+    if (data) {
+        this.entries.unshift(data[0]);
+        this.name = ''; // Clear the name field
+        this.message = ''; // Clear the message field
+        this.showConfirmation = true;
+        setTimeout(() => {
+            this.showConfirmation = false;
+        }, 3000);
+    } else if (error) {
+        console.error('Error submitting entry:', error);
+        this.showError = true;
+        setTimeout(() => {
+            this.showError = false;
+        }, 3000);
+    }
       },
       formatDate(dateString) {
           const date = new Date(dateString);
