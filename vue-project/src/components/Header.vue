@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 h1 {
-  color: #a8b999;
+  color: #9ccc65;
 }
 
 .header-padding {
