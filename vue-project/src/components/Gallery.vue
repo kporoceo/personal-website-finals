@@ -1,17 +1,13 @@
 <template>
-<div id="gallery" class="container mb-5">
-    <div class="container mb-5">
-      <div class="p-4 bg-dark-subtle text-dark rounded-3 shadow">
-        <h3 class="fw-bold text-info"><i class="fas fa-images"></i> Picture Gallery</h3>
-        <p>📸 Work in Progress...</p>
+    <section id="gallery">
+      <div class="text-center">
+        <h2><i class="fas fa-images"></i> Picture Gallery</h2>
         <div class="gallery">
           <img v-for="(url, index) in imageUrls" :key="index" :src="url" alt="Gallery Image" class="gallery-image" />
         </div>
       </div>
-    </div>
-
-</div>
-</template>
+    </section>
+  </template>
   
   <script>
   export default {
@@ -34,25 +30,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
     margin-top: 20px;
   }
   
   .gallery-image {
     width: 200px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-
-  .bg-gradient {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-}
-
-.shadow-lg {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.rounded-3 {
-  border-radius: 1rem;
-}
   </style>

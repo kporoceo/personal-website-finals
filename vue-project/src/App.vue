@@ -2,27 +2,14 @@
   <div class="bg-dark text-light min-vh-100">
     <NavBar />
     <Header />
-    <div class="container">
-      <AboutMe />
-      <div class="row g-4 my-4">
-        <div class="col-md-6">
-          <Education />
-        </div>
-        <div class="col-md-6">
-          <Course />
-        </div>
-      </div>
-      <div class="row g-4 my-4">
-        <div class="col-md-6">
-          <Experience />
-        </div>
-        <div class="col-md-6">
-          <Hobbies />
-        </div>
-      </div>
-      <Goals />
-      <Gallery />
-    </div>
+    <AboutMe />
+    <Education />
+    <Course />
+    <Experience />
+    <Hobbies />
+    <Goals />
+    <Gallery />
+    <Guestbook />
   </div>
 </template>
 
@@ -36,6 +23,7 @@ import Experience from './components/Experience.vue';
 import Hobbies from './components/Hobbies.vue';
 import Goals from './components/Goals.vue';
 import Gallery from './components/Gallery.vue';
+import Guestbook from './components/Guestbook.vue';
 
 export default {
   components: {
@@ -47,7 +35,8 @@ export default {
     Experience,
     Hobbies,
     Goals,
-    Gallery
+    Gallery,
+    Guestbook
   }
 };
 </script>
@@ -56,5 +45,26 @@ export default {
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+section {
+  padding: 80px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1, h2, h3 {
+  color: #6a11cb; /* Gradient color for headings */
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 </style>

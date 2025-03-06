@@ -1,8 +1,7 @@
 <template>
-<div id="goals" class="container mb-4">
-    <div class="container mb-4">
-      <div class="p-4 bg-gradient bg-info text-dark rounded-3 shadow">
-        <h3 class="fw-bold"><i class="fas fa-bullseye"></i> Goals in Life</h3>
+    <section id="goals">
+      <div class="text-center">
+        <h2><i class="fas fa-bullseye"></i> Goals in Life</h2>
         <table class="table table-bordered table-hover text-center bg-light">
           <thead class="table-dark">
             <tr>
@@ -25,9 +24,8 @@
           </tbody>
         </table>
       </div>
-    </div>
-</div>
-</template>
+    </section>
+  </template>
   
   <script>
   export default {
@@ -36,15 +34,5 @@
   </script>
   
   <style scoped>
-  .bg-gradient {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-}
-
-.shadow-lg {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.rounded-3 {
-  border-radius: 1rem;
-}
+  /* Add component-specific styles here */
   </style>
