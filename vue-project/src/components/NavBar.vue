@@ -7,7 +7,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
             <li class="nav-item"><a class="nav-link" href="#course">Course</a></li>
             <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
@@ -15,6 +15,7 @@
             <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
             <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
             <li class="nav-item"><a class="nav-link" href="#guestbook">Guestbook</a></li>
+            <li class="nav-item"><a class="nav-link" href="#guestbook">Contact</a></li>
           </ul>
         </div>
       </div>
