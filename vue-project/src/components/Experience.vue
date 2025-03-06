@@ -18,7 +18,7 @@
 
 
  <div class="category">
-        <h4>Scripting</h4>
+        <h5>Scripting</h5>
         <div class="skills">
           <span class="skill">Bash</span>
           <span class="skill">Powershell</span>
@@ -27,7 +27,7 @@
 
       <!-- Web Development -->
       <div class="category">
-        <h4>Web Development</h4>
+        <h5>Web Development</h5>
         <div class="skills">
           <span class="skill">HTML</span>
           <span class="skill">CSS</span>
@@ -37,7 +37,7 @@
 
       <!-- Operating Systems -->
       <div class="category">
-        <h4>Operating Systems</h4>
+        <h5>Operating Systems</h5>
         <div class="skills">
           <span class="skill">Linux</span>
           <span class="skill">Ubuntu</span>
@@ -48,7 +48,7 @@
 
       <!-- Networking Tools -->
       <div class="category">
-        <h4>Networking Tools</h4>
+        <h5>Networking Tools</h5>
         <div class="skills">
           <span class="skill">Cisco Packet Tracer</span>
           <span class="skill">Nmap</span>
@@ -61,7 +61,7 @@
 
       <!-- Database Tools -->
       <div class="category">
-        <h4>Database Tools</h4>
+        <h5>Database Tools</h5>
         <div class="skills">
           <span class="skill">MySQL</span>
           <span class="skill">PostgreSQL</span>
@@ -71,7 +71,7 @@
 
       <!-- Development Tools -->
       <div class="category">
-        <h4>Development Tools</h4>
+        <h5>Development Tools</h5>
         <div class="skills">
           <span class="skill">VM Box</span>
           <span class="skill">GitHub</span>
