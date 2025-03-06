@@ -1,16 +1,18 @@
 <template>
-  <div class="bg-dark text-light min-vh-100">
-    <NavBar />
-    <Header />
-    <AboutMe />
-    <Education />
-    <Course />
-    <Experience />
-    <Hobbies />
-    <Goals />
-    <Gallery />
-    <Guestbook />
-    <ContactMe />
+  <div class="min-vh-100">
+      <NavBar />
+      <Header />
+      <div class="container">
+          <AboutMe />
+          <Education />
+          <Course />
+          <Experience />
+          <Hobbies />
+          <Goals />
+          <Gallery />
+          <Guestbook />
+          <ContactMe />
+      </div>
   </div>
 </template>
 
@@ -29,62 +31,61 @@ import ContactMe from './components/ContactMe.vue';
 
 export default {
   components: {
-    NavBar,
-    Header,
-    AboutMe,
-    Education,
-    Course,
-    Experience,
-    Hobbies,
-    Goals,
-    Gallery,
-    Guestbook,
-    ContactMe
+      NavBar,
+      Header,
+      AboutMe,
+      Education,
+      Course,
+      Experience,
+      Hobbies,
+      Goals,
+      Gallery,
+      Guestbook,
+      ContactMe
   }
 };
 </script>
 
 <style>
-/* Global styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth; /* Smooth scrolling */
-  background-color: #1a1a1a; /* Dark background */
-  color: #e0e0e0; /* Light text */
+  scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 section {
-  padding: 80px 20px;
+  padding: 80px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-h1, h2, h3, h4 {
-  color: #9ccc65; /* Sage green for headings */
+h1, h2, h3 {
+  color: #a8b999;
 }
 
-a {
-  color: #9ccc65; /* Sage green for links */
-  text-decoration: none;
+.skill {
+  background-color: #a8b999;
 }
 
-a:hover {
-  color: #7cb342; /* Darker sage green for hover */
+.skill:hover {
+  background-color: #c2d3b2;
 }
 
-.bg-gradient {
-  background: linear-gradient(135deg, #9ccc65, #7cb342); /* Sage green gradient */
-  color: white;
+.social-link {
+  background-color: #a8b999;
 }
 
-.shadow-lg {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.social-link:hover {
+  background-color: #c2d3b2;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.hobby-card {
+  background-color: #333333;
 }
+
+.table {
+  color: black;
+}
+
 </style>
