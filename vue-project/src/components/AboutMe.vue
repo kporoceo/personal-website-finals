@@ -10,7 +10,7 @@
           <p>Check us out on:
             <a href="https://www.facebook.com/PETKINGDOMPH" target="_blank" class="text-dark fw-bold"><i class="fab fa-facebook"></i> Facebook</a>,
             <a href="https://www.instagram.com/petkingdomph/" target="_blank" class="text-dark fw-bold"><i class="fab fa-instagram"></i> Instagram</a>,
-            <a href="https://shopee.ph/petkingdomph" target="_blank" class="text-dark fw-bold"><i class="fas fa-shopping-cart"></i> Shopee</a>.
+            <a href="https://shopee.ph/petkingdomph" target="_blank" class="text-dark fw-bold"><i class="fas fa-shopping-cart"></i> & Shopee</a>.
           </p>
         </div>
       </div>

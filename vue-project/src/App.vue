@@ -1,15 +1,28 @@
 <template>
-  <div class="bg-dark text-light">
+  <div class="bg-dark text-light min-vh-100">
     <NavBar />
     <Header />
-    <AboutMe />
-    <Education />
-    <Course />
-    <Experience />
-    <Hobbies />
-    <Goals />
-    <Gallery />
-   
+    <div class="container">
+      <AboutMe />
+      <div class="row g-4 my-4">
+        <div class="col-md-6">
+          <Education />
+        </div>
+        <div class="col-md-6">
+          <Course />
+        </div>
+      </div>
+      <div class="row g-4 my-4">
+        <div class="col-md-6">
+          <Experience />
+        </div>
+        <div class="col-md-6">
+          <Hobbies />
+        </div>
+      </div>
+      <Goals />
+      <Gallery />
+    </div>
   </div>
 </template>
 
@@ -24,7 +37,6 @@ import Hobbies from './components/Hobbies.vue';
 import Goals from './components/Goals.vue';
 import Gallery from './components/Gallery.vue';
 
-
 export default {
   components: {
     NavBar,
@@ -35,12 +47,14 @@ export default {
     Experience,
     Hobbies,
     Goals,
-    Gallery,
-
+    Gallery
   }
-}
+};
 </script>
 
 <style>
-/* Global styles can go here */
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
 </style>
