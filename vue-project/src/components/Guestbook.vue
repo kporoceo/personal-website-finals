@@ -66,7 +66,7 @@ export default {
               .from('guestbook')
               .select('*')
               .order('created_at', { ascending: false });
-          if (data) this.entries = data;
+
           if (error) {
               console.error('Error fetching entries:', error);
               this.showError = true;
@@ -74,34 +74,37 @@ export default {
                   this.showError = false;
               }, 3000);
           }
+
+          this.entries = Array.isArray(data) ? data : []; // Ensure entries is always an array
       },
       async submitEntry() {
-    const { data, error } = await supabase
-        .from('guestbook')
-        .insert([{ name: this.name, message: this.message }]);
-    if (data) {
-        this.entries.unshift(data[0]);
-        this.name = ''; // Clear the name field
-        this.message = ''; // Clear the message field
-        this.showConfirmation = true;
-        setTimeout(() => {
-            this.showConfirmation = false;
-        }, 3000);
-    } else if (error) {
-        console.error('Error submitting entry:', error);
-        this.showError = true;
-        setTimeout(() => {
-            this.showError = false;
-        }, 3000);
-    }
-      },
-      formatDate(dateString) {
-          const date = new Date(dateString);
-          return date.toLocaleString();
-      }
+          const { data, error } = await supabase
+              .from('guestbook')
+              .insert([{ name: this.name, message: this.message }])
+              .select('*'); // Request the inserted data
+
+          if (Array.isArray(data) && data.length > 0) {
+              this.entries.unshift(data[0]); // Ensure new entry is added to list
+              this.name = ''; // Clear name field
+              this.message = ''; // Clear message field
+              this.showConfirmation = true; // Show success message
+
+              setTimeout(() => {
+                  this.showConfirmation = false;
+              }, 3000);
+          } else if (error) {
+              console.error('Error submitting entry:', error);
+              this.showError = true;
+
+              setTimeout(() => {
+                  this.showError = false;
+              }, 3000);
+          }
+      } // Fixed: Closing brace was missing
   }
 };
 </script>
+
 
 <style scoped>
 .card {
