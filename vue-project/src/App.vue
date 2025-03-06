@@ -56,7 +56,7 @@ body {
 }
 
 section {
-    padding: 60px 0; /* Reduced to 60px from 80px */
+    padding: 100px 0; /* Reduced to 60px from 80px */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 

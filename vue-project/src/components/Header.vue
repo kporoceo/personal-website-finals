@@ -19,6 +19,6 @@ h1 {
 }
 
 .header-padding {
-  padding-top: 100px; /* Reduced to 60px from 80px */
+  padding-top: 100px; 
 }
 </style>
