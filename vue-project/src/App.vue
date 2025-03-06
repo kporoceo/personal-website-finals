@@ -1,18 +1,18 @@
 <template>
   <div class="min-vh-100">
-      <NavBar />
+    <NavBar />
+    <div class="container">
       <Header />
-      <div class="container">
-          <AboutMe />
-          <Education />
-          <Course />
-          <Experience />
-          <Hobbies />
-          <Goals />
-          <Gallery />
-          <Guestbook />
-          <ContactMe />
-      </div>
+      <AboutMe />
+      <Education />
+      <Course />
+      <Experience />
+      <Hobbies />
+      <Goals />
+      <Gallery />
+      <Guestbook />
+      <ContactMe />
+    </div>
   </div>
 </template>
 
@@ -31,36 +31,38 @@ import ContactMe from './components/ContactMe.vue';
 
 export default {
   components: {
-      NavBar,
-      Header,
-      AboutMe,
-      Education,
-      Course,
-      Experience,
-      Hobbies,
-      Goals,
-      Gallery,
-      Guestbook,
-      ContactMe
+    NavBar,
+    Header,
+    AboutMe,
+    Education,
+    Course,
+    Experience,
+    Hobbies,
+    Goals,
+    Gallery,
+    Guestbook,
+    ContactMe
   }
 };
 </script>
 
 <style>
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 section {
-    padding: 100px 0; /* Reduced to 60px from 80px */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #a8b999;
 }
 
@@ -89,11 +91,19 @@ h1, h2, h3 {
 }
 
 .navbar {
-  opacity: 0; /* Initially hide the navbar */
-  transition: opacity 0.3s ease; /* Add a transition for a smooth effect */
+  opacity: 0;
+  /* Initially hide the navbar */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
 }
 
 .navbar:hover {
-  opacity: 1; /* Show the navbar on hover */
+  opacity: 1;
+  /* Show the navbar on hover */
+}
+
+.container {
+  padding-top: 60px;
+  /* Add padding to the top of the container */
 }
 </style>
