@@ -9,17 +9,17 @@
         <h3>Top 3 Books</h3>
         <div class="hobby-grid">
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="The Unbearable Lightness of Being" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/the%20unbearable%20lightness%20of%20being%20book%20cover.jpg?raw=true " alt="The Unbearable Lightness of Being" class="hobby-image" />
             <p class="hobby-title">The Unbearable Lightness of Being</p>
             <p class="hobby-author">by Milan Kundera</p>
           </div>
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81Z5Z+5Z5ZL._AC_UF1000,1000_QL80_.jpg" alt="Almond" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/almond%20book%20cover.jpg?raw=true" alt="Almond" class="hobby-image" />
             <p class="hobby-title">Almond</p>
             <p class="hobby-author">by Sohn Won-pyung</p>
           </div>
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="Before the Coffee Gets Cold" class="hobby-image" />
+            <img src="https://raw.githubusercontent.com/kporoceo/webprog-image-repo/refs/heads/main/before%20the%20coffee%20gets%20cold%20book%20cover.webp" alt="Before the Coffee Gets Cold" class="hobby-image" />
             <p class="hobby-title">Before the Coffee Gets Cold</p>
             <p class="hobby-author">by Toshikazu Kawaguchi</p>
           </div>
@@ -31,15 +31,15 @@
         <h3>Top 3 TV Series</h3>
         <div class="hobby-grid">
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="Parks and Recreation" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/parks%20and%20recreation%20poster.jpg?raw=true" alt="Parks and Recreation" class="hobby-image" />
             <p class="hobby-title">Parks and Recreation</p>
           </div>
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="Schitt's Creek" class="hobby-image" />
+            <img src="https://raw.githubusercontent.com/kporoceo/webprog-image-repo/refs/heads/main/schitt's%20creek.webp" alt="Schitt's Creek" class="hobby-image" />
             <p class="hobby-title">Schitt's Creek</p>
           </div>
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="The Walking Dead" class="hobby-image" />
+            <img src="https://raw.githubusercontent.com/kporoceo/webprog-image-repo/refs/heads/main/the%20walking%20dead%20poster.webp" alt="The Walking Dead" class="hobby-image" />
             <p class="hobby-title">The Walking Dead</p>
           </div>
         </div>
@@ -50,15 +50,15 @@
         <h3>Top 3 Movies</h3>
         <div class="hobby-grid">
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="Little Miss Sunshine" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/little%20miss%20sunshine%20poster.jpg?raw=true" alt="Little Miss Sunshine" class="hobby-image" />
             <p class="hobby-title">Little Miss Sunshine</p>
           </div>
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="Hereditary" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/hereditary%20poster.jpg?raw=true" alt="Hereditary" class="hobby-image" />
             <p class="hobby-title">Hereditary</p>
           </div>
           <div class="hobby-card">
-            <img src="https://m.media-amazon.com/images/I/81XQ7+xMZYL._AC_UF1000,1000_QL80_.jpg" alt="Exhuma" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/exhuma%20poster.jpg?raw=true" alt="Exhuma" class="hobby-image" />
             <p class="hobby-title">Exhuma</p>
           </div>
         </div>
