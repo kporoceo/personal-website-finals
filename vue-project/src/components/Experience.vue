@@ -112,7 +112,7 @@ export default {
 }
 
 .skill {
-  background-color: #95a688(269 7% 20%);
+  background-color: #678a4d(269 7% 20%);
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
