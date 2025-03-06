@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  Hello World!
+  Update!
 </template>
 
 <style>
