@@ -10,7 +10,7 @@
     <Goals />
     <Gallery />
     <Guestbook />
-    <ContactMe /> <!-- Add the ContactMe component here -->
+    <ContactMe />
   </div>
 </template>
 
@@ -25,7 +25,7 @@ import Hobbies from './components/Hobbies.vue';
 import Goals from './components/Goals.vue';
 import Gallery from './components/Gallery.vue';
 import Guestbook from './components/Guestbook.vue';
-import ContactMe from './components/ContactMe.vue'; // Import the ContactMe component
+import ContactMe from './components/ContactMe.vue';
 
 export default {
   components: {
@@ -39,7 +39,7 @@ export default {
     Goals,
     Gallery,
     Guestbook,
-    ContactMe // Register the ContactMe component
+    ContactMe
   }
 };
 </script>
@@ -51,6 +51,8 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth; /* Smooth scrolling */
+  background-color: #1a1a1a; /* Dark background */
+  color: #e0e0e0; /* Light text */
 }
 
 section {
@@ -58,16 +60,31 @@ section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-h1, h2, h3 {
-  color: #6a11cb; /* Gradient color for headings */
+h1, h2, h3, h4 {
+  color: #9ccc65; /* Sage green for headings */
+}
+
+a {
+  color: #9ccc65; /* Sage green for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7cb342; /* Darker sage green for hover */
 }
 
 .bg-gradient {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #9ccc65, #7cb342); /* Sage green gradient */
   color: white;
 }
 
 .shadow-lg {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 </style>

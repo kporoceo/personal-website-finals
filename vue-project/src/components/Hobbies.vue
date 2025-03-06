@@ -9,7 +9,7 @@
         <h3>Top 3 Books</h3>
         <div class="hobby-grid">
           <div class="hobby-card">
-            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/the%20unbearable%20lightness%20of%20being%20book%20cover.jpg?raw=true " alt="The Unbearable Lightness of Being" class="hobby-image" />
+            <img src="https://github.com/kporoceo/webprog-image-repo/blob/main/the%20unbearable%20lightness%20of%20being%20book%20cover.jpg?raw=true" alt="The Unbearable Lightness of Being" class="hobby-image" />
             <p class="hobby-title">The Unbearable Lightness of Being</p>
             <p class="hobby-author">by Milan Kundera</p>
           </div>
@@ -74,13 +74,12 @@ export default {
 </script>
 
 <style scoped>
-/* Add component-specific styles here */
 .category {
   margin-bottom: 40px;
 }
 
 .category h3 {
-  color: #6a11cb; /* Gradient color for headings */
+  color: #9ccc65; /* Sage green for headings */
   margin-bottom: 20px;
 }
 
@@ -116,7 +115,7 @@ export default {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
-  color: #fff;
+  color: #e0e0e0;
 }
 
 .hobby-author {

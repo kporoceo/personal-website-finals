@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import { supabase } from '../supabase'; // Import the Supabase client
+import { supabase } from '../supabase';
 
 export default {
   name: 'Guestbook',
@@ -47,11 +47,11 @@ export default {
       name: '',
       message: '',
       entries: [],
-      showConfirmation: false // Track whether to show the confirmation message
+      showConfirmation: false
     };
   },
   async created() {
-    await this.fetchEntries(); // Fetch entries when the component is created
+    await this.fetchEntries();
   },
   methods: {
     async fetchEntries() {
@@ -88,17 +88,16 @@ export default {
 </script>
 
 <style scoped>
-/* Add component-specific styles here */
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  color: #000;
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  color: #e0e0e0;
 }
 
 .alert-success {
-  background-color: #d4edda;
-  color: #155724;
-  border-color: #c3e6cb;
+  background-color: #4caf50; /* Green for success */
+  color: white;
+  border-color: #388e3c;
   padding: 10px;
   border-radius: 5px;
 }
