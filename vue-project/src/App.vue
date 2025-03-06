@@ -63,7 +63,7 @@ section {
 h1,
 h2,
 h3 {
-  color: #a8b999;
+  color: #9ccc65;
 }
 
 .skill {
