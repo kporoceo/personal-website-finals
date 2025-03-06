@@ -10,6 +10,7 @@
     <Goals />
     <Gallery />
     <Guestbook />
+    <ContactMe /> <!-- Add the ContactMe component here -->
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import Hobbies from './components/Hobbies.vue';
 import Goals from './components/Goals.vue';
 import Gallery from './components/Gallery.vue';
 import Guestbook from './components/Guestbook.vue';
+import ContactMe from './components/ContactMe.vue'; // Import the ContactMe component
 
 export default {
   components: {
@@ -36,7 +38,8 @@ export default {
     Hobbies,
     Goals,
     Gallery,
-    Guestbook
+    Guestbook,
+    ContactMe // Register the ContactMe component
   }
 };
 </script>
