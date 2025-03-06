@@ -90,18 +90,6 @@ h3 {
   color: black;
 }
 
-.navbar {
-  opacity: 0;
-  /* Initially hide the navbar */
-  transition: opacity 0.3s ease;
-  /* Add a transition for a smooth effect */
-}
-
-.navbar:hover {
-  opacity: 1;
-  /* Show the navbar on hover */
-}
-
 .container {
   padding-top: 60px;
   /* Add padding to the top of the container */
