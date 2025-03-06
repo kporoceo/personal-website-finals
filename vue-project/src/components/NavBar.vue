@@ -14,6 +14,7 @@
             <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
             <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
             <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#guestbook">Guestbook</a></li>
           </ul>
         </div>
       </div>

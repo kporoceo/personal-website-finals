@@ -13,6 +13,13 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+
+      <!-- Confirmation Message -->
+      <div v-if="showConfirmation" class="alert alert-success mt-3">
+        Thank you for signing the guestbook!
+      </div>
+
+      <!-- Display Guestbook Entries -->
       <div v-if="entries.length > 0">
         <h3>Entries</h3>
         <div v-for="entry in entries" :key="entry.id" class="card mb-3">
@@ -39,7 +46,8 @@ export default {
     return {
       name: '',
       message: '',
-      entries: []
+      entries: [],
+      showConfirmation: false // Track whether to show the confirmation message
     };
   },
   async created() {
@@ -60,8 +68,14 @@ export default {
         .insert([{ name: this.name, message: this.message }]);
       if (data) {
         this.entries.unshift(data[0]); // Add the new entry to the top of the list
-        this.name = '';
-        this.message = '';
+        this.name = ''; // Clear the name field
+        this.message = ''; // Clear the message field
+        this.showConfirmation = true; // Show the confirmation message
+
+        // Hide the confirmation message after 3 seconds
+        setTimeout(() => {
+          this.showConfirmation = false;
+        }, 3000);
       }
       if (error) console.error('Error submitting entry:', error);
     },
@@ -79,5 +93,13 @@ export default {
   background-color: #fff;
   border: 1px solid #ddd;
   color: #000;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+  padding: 10px;
+  border-radius: 5px;
 }
 </style>
