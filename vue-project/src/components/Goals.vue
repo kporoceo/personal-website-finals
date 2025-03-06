@@ -1,7 +1,7 @@
 <template>
     <section id="goals">
       <div class="text-center">
-        <h2><i class="fas fa-bullseye"></i> Goals in Life</h2>
+        <h1><i class="fas fa-bullseye"></i> Goals in Life</h1>
         <table class="table table-bordered table-hover text-center bg-light">
           <thead class="table-dark">
             <tr>

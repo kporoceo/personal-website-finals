@@ -1,7 +1,7 @@
 <template>
     <section id="about">
       <div class="text-center">
-        <h2><i class="fas fa-user"></i> About Me</h2>
+        <h1><i class="fas fa-user"></i> About Me</h1>
         <p>
           I am a co-owner of <span class="fw-bold">PETKINGDOM PH</span> at San Lorenzo Place Mall in Chino Roces.
           This is a family business that I started alongside my siblings and cousins during the pandemic. Thankfully, we are still in operation to this day.

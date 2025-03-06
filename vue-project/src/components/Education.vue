@@ -1,7 +1,7 @@
 <template>
     <section id="education">
       <div class="text-center">
-        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <h1><i class="fas fa-graduation-cap"></i> Education</h1>
         <ul class="list-unstyled">
           <li>🎓 UST-SHS: Accountancy, Business, and Management Strand (2016-2018)</li>
           <li>🎓 UST-AMV: Bachelor of Science in Accountancy (2018-2021)</li>

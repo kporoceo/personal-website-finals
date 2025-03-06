@@ -1,7 +1,7 @@
 <template>
     <section id="gallery">
       <div class="text-center">
-        <h2><i class="fas fa-images"></i> Picture Gallery</h2>
+        <h1><i class="fas fa-images"></i> Picture Gallery</h1>
         <div class="gallery">
           <img v-for="(url, index) in imageUrls" :key="index" :src="url" alt="Gallery Image" class="gallery-image" />
         </div>

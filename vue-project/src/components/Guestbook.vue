@@ -1,7 +1,7 @@
 <template>
   <section id="guestbook">
     <div class="text-center">
-      <h2><i class="fas fa-book"></i> Guestbook</h2>
+      <h1><i class="fas fa-book"></i> Guestbook</h1>
       <form @submit.prevent="submitEntry" class="mb-4">
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>

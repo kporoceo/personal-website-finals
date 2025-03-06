@@ -1,7 +1,7 @@
 <template>
   <section id="experience">
     <div class="text-center">
-      <h2><i class="fas fa-code"></i> IT Experience</h2>
+      <h1><i class="fas fa-code"></i> IT Experience</h1>
       <p>Here are the tools and languages I have experience with so far:</p>
 
       <!-- Programming Languages -->

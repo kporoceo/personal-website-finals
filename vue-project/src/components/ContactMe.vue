@@ -1,7 +1,7 @@
 <template>
     <section id="contact">
       <div class="text-center">
-        <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+        <h1><i class="fas fa-envelope"></i> Contact Me</h1>
         <p class="lead">Feel free to reach out to me on any of these platforms:</p>
         <div class="social-links">
           <a href="https://www.facebook.com/kathryn.oroceo" target="_blank" class="social-link">

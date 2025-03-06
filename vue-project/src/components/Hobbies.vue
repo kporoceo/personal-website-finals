@@ -1,7 +1,7 @@
 <template>
   <section id="hobbies">
     <div class="text-center">
-      <h2><i class="fas fa-gamepad"></i> Hobbies & Interests</h2>
+      <h1><i class="fas fa-gamepad"></i> Hobbies & Interests</h1>
       <p>Here are some of my favorite books, TV series, and movies:</p>
 
       <!-- Top 3 Books -->
