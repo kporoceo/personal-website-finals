@@ -5,13 +5,13 @@
         <p class="lead">Feel free to reach out to me on any of these platforms:</p>
         <div class="social-links">
           <a href="https://www.facebook.com/kathryn.oroceo" target="_blank" class="social-link">
-            <i class="fab fa-facebook"></i> Facebook
+            <i class="fab fa-facebook"></i> 
           </a>
           <a href="https://www.instagram.com/oreoceo" target="_blank" class="social-link">
-            <i class="fab fa-instagram"></i> Instagram
+            <i class="fab fa-instagram"></i> 
           </a>
           <a href="https://github.com/kporoceo" target="_blank" class="social-link">
-            <i class="fab fa-github"></i> GitHub
+            <i class="fab fa-github"></i> 
           </a>
         </div>
       </div>
