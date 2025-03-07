@@ -4,7 +4,6 @@
       <h1><i class="fas fa-code"></i> IT Experience</h1>
       <p>Here are the tools and languages I have experience with so far:</p>
 
-      <!-- Programming Languages -->
       <div class="category">
         <h4>Programming Languages</h4>
         <div class="skills">
@@ -16,7 +15,6 @@
         </div>
       </div>
 
-
  <div class="category">
         <h5>Scripting</h5>
         <div class="skills">
@@ -25,7 +23,6 @@
         </div>
       </div>
 
-      <!-- Web Development -->
       <div class="category">
         <h5>Web Development</h5>
         <div class="skills">
@@ -35,7 +32,6 @@
         </div>
       </div>
 
-      <!-- Operating Systems -->
       <div class="category">
         <h5>Operating Systems</h5>
         <div class="skills">
@@ -46,7 +42,6 @@
         </div>
       </div>
 
-      <!-- Networking Tools -->
       <div class="category">
         <h5>Networking Tools</h5>
         <div class="skills">
@@ -59,7 +54,6 @@
         </div>
       </div>
 
-      <!-- Database Tools -->
       <div class="category">
         <h5>Database Tools</h5>
         <div class="skills">
@@ -69,7 +63,6 @@
         </div>
       </div>
 
-      <!-- Development Tools -->
       <div class="category">
         <h5>Development Tools</h5>
         <div class="skills">

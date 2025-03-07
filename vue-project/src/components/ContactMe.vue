@@ -25,7 +25,6 @@
   </script>
   
   <style scoped>
-  /* Add component-specific styles here */
   .social-links {
     display: flex;
     justify-content: center;

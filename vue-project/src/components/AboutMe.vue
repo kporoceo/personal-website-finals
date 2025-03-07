@@ -22,5 +22,4 @@
   </script>
   
   <style scoped>
-  /* Add component-specific styles here */
   </style>

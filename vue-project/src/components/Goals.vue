@@ -15,7 +15,7 @@
                   <tr>
                       <td>TOPIK Certification 🇰🇷</td>
                       <td>Part-time Job (Internship Shortcut 🤔)</td>
-                      <td>Graduation! (Super Delayed 🥶)</td>
+                      <td>Graduation! (Super Delayed!)</td>
                   </tr>
                   <tr>
                       <td>Cybersecurity Credentials</td>

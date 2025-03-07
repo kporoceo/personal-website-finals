@@ -67,12 +67,12 @@ export default {
         .from('guestbook')
         .insert([{ name: this.name, message: this.message }]);
       if (data) {
-        this.entries.unshift(data[0]); // Add the new entry to the top of the list
-        this.name = ''; // Clear the name field
-        this.message = ''; // Clear the message field
-        this.showConfirmation = true; // Show the confirmation message
+        this.entries.unshift(data[0]); 
+        this.name = ''; 
+        this.message = ''; 
+        this.showConfirmation = true; 
 
-        // Hide the confirmation message after 3 seconds
+        
         setTimeout(() => {
           this.showConfirmation = false;
         }, 3000);
@@ -81,7 +81,7 @@ export default {
     },
     formatDate(dateString) {
       const date = new Date(dateString);
-      return date.toLocaleString(); // Format the date as needed
+      return date.toLocaleString(); 
     }
   }
 };
@@ -95,7 +95,7 @@ export default {
 }
 
 .alert-success {
-  background-color: #4caf50; /* Green for success */
+  background-color: #4caf50; 
   color: white;
   border-color: #388e3c;
   padding: 10px;

@@ -79,7 +79,7 @@ export default {
 }
 
 .category h3 {
-  color: #9ccc65; /* Sage green for headings */
+  color: #9ccc65; /* sage green */
   margin-bottom: 20px;
 }
 

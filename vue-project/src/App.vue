@@ -92,15 +92,14 @@ h3 {
 
 .container {
   padding-top: 60px;
-  /* Add padding to the top of the container */
 }
 
 .navbar-brand {
-  color: #9ccc65 !important; /* Match h1, h2, h3 */
+  color: #9ccc65 !important; 
 }
 
 .header h1 {
-  color: #9ccc65 !important; /* Ensure Header text matches */
+  color: #9ccc65 !important; /
 }
 
 </style>
